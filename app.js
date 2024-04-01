@@ -1,9 +1,11 @@
+// Script for Page 
+//
 // Script for Type Effect //
-    const messages = [
-      "I'm a Web Developer",
+const messages = [
       "I'm a Programmer",
       "I'm a Cybersecurity Enthusiast",
-      "I have a background in ad tech"
+      "I've worked in AdTech and Client Relations",
+      "I love troubleshooting tech issues",
       "I would like you to take a look around",
       "I would love for you to reach out!"
     ];
@@ -41,10 +43,10 @@
         }
       }, 50);
     } // CALL FUNCTION
-    typeMessage(); 
-    //>>>
-    //>>>
-// SCRIPT FOR HEADER OBSERVER
+    typeMessage();
+//
+//
+// SCRIPT FOR HEADER OBSERVER // 
     const navHeader = document.querySelector('.nav-header');
     const content = document.querySelector('.content');
     
@@ -93,4 +95,26 @@ function callTime(){ // name function
   // setInterval to CALL FUNCTION in MS
 setInterval(function(){  callTime() }, 1000);
 //
+//
+// CERT DISPLAY SCRIPT //
+//
+// Declare Variables and Set Counter 
+const certCarousel = document.querySelector('.cert-carousel');
+    let counter = 0;
+// Set Slide Function: 
+    function next() {
+      counter++;
+//Loop to make counter
+      if (counter > document.querySelectorAll('.cert').length - 1) {
+        counter = 0;
+      }
+      updateCarousel();
+    }
+// Call Function
+    function updateCarousel() {
+// Adjust to IMG px: 
+certCarousel.style.transform = `translateX(-${counter * 500}px)`; 
+    }
+// Set interval: 
+    setInterval(next, 2500);
 // END OF SCRIPT
