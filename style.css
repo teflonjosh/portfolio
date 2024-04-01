@@ -155,8 +155,8 @@ width: auto;
 }
 /*Cert Display */
 .display {
-width: 500px;
-height: 400px;
+width: 300px;
+height: 250px;
 overflow: hidden;
 margin: 0 auto;
 }
@@ -165,7 +165,7 @@ display: flex;
 transition: transform 0.5s ease;
 }
 .cert, .certs{
-height: 400px;
-width: 500px;
+height: 250px;
+width: 300px;
 }
 /* End of CSS */ 
