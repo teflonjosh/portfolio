@@ -15,14 +15,19 @@ text-align: center;
 text-decoration: none;
 margin-bottom: 20px;
 }
-Footer {
+Footer, footer a {
 text-align: center;
-background-color:white;;
+background-color: #0a0d2a;;
+color:white;;
 padding:25px;
 font-size: medium;
 }  
-    /* DIVS*/
-#even {.
+#certificates {
+border-bottom: 15px solid rgb(27, 77, 143);
+}
+
+/* DIVS*/
+#even {
 margin-left: 20px;
 margin-right: 170px;
 text-align: center;
@@ -51,10 +56,11 @@ text-align: center;
 color:white;
 }
 #time {
-color:rgb(27, 77, 143);
+color:white;
 font-style: italic;
 }
-    /* Text and Font */ 
+
+/* Text and Font */ 
 a {
 color:white;
 text-decoration: none;
@@ -73,10 +79,10 @@ display:inline;
 h3 {
 text-align: center;
 }
-footer a, .languages a {
+.languages a {
 color:black;
 }
-    /* Image */ 
+/* Image */ 
 .container img{
 border-radius: 33%;
 opacity: .75;
@@ -96,7 +102,8 @@ color: transparent;}
 50% {
 color: rgb(132, 81, 208); }
 }
-    /* CSS FOR SCRIPT */ 
+
+/* CSS FOR SCRIPT */ 
 .nav-header {
 background-color: #0a0d2a;;
 text-align: center;
@@ -146,3 +153,19 @@ background-color: #0a0d2a;
 color: white;
 width: auto;
 }
+/*Cert Display */
+.display {
+width: 500px;
+height: 400px;
+overflow: hidden;
+margin: 0 auto;
+}
+.cert-carousel {
+display: flex;
+transition: transform 0.5s ease;
+}
+.cert, .certs{
+height: 400px;
+width: 500px;
+}
+/* End of CSS */ 
