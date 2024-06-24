@@ -165,7 +165,7 @@ display: flex;
 transition: transform 0.5s ease;
 }
 .cert, .certs{
-height: 250px;
-width: 300px;
+height: 300px;
+width: 350px;
 }
 /* End of CSS */ 
