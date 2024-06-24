@@ -16,7 +16,10 @@ text-decoration: none;
 margin-bottom: 20px;
 }
 Footer, footer a {
-position: sticky;
+/*position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;*/
 text-align: center;
 background-color: #0a0d2a;;
 color:white;;
