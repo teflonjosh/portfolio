@@ -113,7 +113,7 @@ const certCarousel = document.querySelector('.cert-carousel');
 // Call Function
     function updateCarousel() {
 // Adjust to IMG px: 
-certCarousel.style.transform = `translateX(-${counter * 300}px)`; 
+certCarousel.style.transform = `translateX(-${counter * 350}px)`; 
     }
 // Set interval: 
     setInterval(next, 2500);
